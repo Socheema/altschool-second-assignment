@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600&family=Roboto+Flex:opsz,wght@8..144,400;8..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Development Training</title>
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <section class="section section1">
+          <div class="section1__content">
+            <figure>
+              <img src="./assets/Logo.svg" class="logo" alt="logo" />
+            </figure>
+            <div class="section1__content__details">
+              <header>
+                <h1>For Individuals</h1>
+              </header>
+              <p>
+                Start benefiting from the wellness experience. For <br />
+                companies looking on increasing productivity, and improving
+                <br />
+                organization wellness.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="section section2">
+          <form action="">
+            <div class="f-section">
+              <div class="section1">
+                <div class="input__container">
+                  <label for="fname">First Name</label>
+                  <input
+                    type="text"
+                    id="fname"
+                    name="fname"
+                    placeholder="Tolu"
+                    class="input__focus"
+                  />
+                </div>
+
+                <div class="input__container">
+                  <label for="gender">Gender</label>
+                  <input type="text" id="gender" placeholder="Select here" />
+                  <img
+                    src="./assets/u_angle-down.svg"
+                    class="select__genderIcon"
+                    alt="select image"
+                  />
+                </div>
+                <div class="input__container">
+                  <label for="weight">Weight (KG)</label>
+                  <input type="text" id="weight" placeholder="Enter Weight" />
+                </div>
+              </div>
+              <div class="form__section2">
+                <div class="input__container">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lname" />
+                </div>
+                <div class="input__container">
+                  <label for="dob">Date of Birth</label>
+                  <input type="text" id="dob" placeholder="Select here" />
+                  <img
+                    src="./assets/u_a_calendar-alt.svg"
+                    class="select__dobIcon"
+                    alt="calender image"
+                  />
+                </div>
+                <div class="input__container">
+                  <label for="height">Height (CM)</label>
+                  <input
+                    type="text"
+                    id="height"
+                    placeholder="Enter height here.."
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="l-section">
+              <div class="input__container">
+                <label  for="activity-level">Activity Level</label>
+                <input
+                  type="text"
+                  id="activity-level"
+                  name="activity-level"
+                  placeholder="Select here"
+                />
+                <img
+                  src="./assets/u_angle-down.svg"
+                  class="activityIcon"
+                  alt="select image"
+                />
+              </div>
+              <div class="input__container">
+                <label for="password">Password</label>
+                <input type="password" id="password" />
+                <img
+                  src="./assets/show.svg"
+                  class="passwordIcon"
+                  alt="Show image"
+                />
+              </div>
+             <div class="l-section__submit">
+                <button id="btn">Register</button>
+                <p>
+                  By clicking Register, you agree to our
+                  <span>Terms of Use</span> and our <span>Privacy Policy</span>
+                </p>
+             </div>
+            </div>
+          </form>
+        </section>
+        <p class="mobile">
+          By clicking Register, you agree to our <span>Terms of Use</span> and our <span>Privacy Policy</span>
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
