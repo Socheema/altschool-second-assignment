@@ -269,7 +269,7 @@ main {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 840px) {
  body{
   height: 100vh;
   .wrapper {
